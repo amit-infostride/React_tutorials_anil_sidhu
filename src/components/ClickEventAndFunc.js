@@ -10,7 +10,7 @@ export const ClickEventAndFunc = () => {
         data='peter'
         alert(data)
     }
-
+ 
     return (
         <div>
             <h2>Click Event and functions</h2>
