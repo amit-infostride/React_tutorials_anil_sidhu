@@ -14,7 +14,22 @@ import './App.css';
 // import ConstructorFirstLifecycle from './components/ConstructorFirstLifecycle';
 // import RenderLifeCycle from './components/RenderLifeCycle'
 // import {useState} from 'react';
-import ComponentDidMountLifeCycle from './components/ComponentDidMountLifeCycle';
+// import ComponentDidMountLifeCycle from './components/ComponentDidMountLifeCycle';
+// import ComponentWillUnmount from './components/ComponentWillUnmount';
+// import Hook from './components/Hook';
+// import UseEffectHook from './UseEffectHook';
+// import UseEffectWithStateAndProps from './components/UseEffectWithStateAndProps';
+// ---------------------------------------------------
+// import UseEffectWithProps from './components/UseEffectWithProps';
+// import React, { useState } from 'react';
+// --------------------------------------------------------
+// import StyleInReact from './components/StyleInReact';
+// import Bootstrap from './components/Bootstrap';
+import HandleArrayWithList from './components/HandleArrayWithList';
+
+
+
+
 
 
 function App() {
@@ -28,11 +43,16 @@ function App() {
 
   // -----------------------------
 
-    // -----------------------------
-    // Render Life cycle
-    // const[name,setName ] = useState('anil')
-  
   // -----------------------------
+  // Render Life cycle
+  // const[name,setName ] = useState('anil')
+
+  // ----------------use effect with props-------------
+
+  // const [data, setData] = useState(10)
+  // const [count, setCount] = useState(100);
+
+  // ---------------------------------------
 
   return (
     <div className="App">
@@ -71,30 +91,54 @@ function App() {
       {/* pass function as a props */}   {/* pass function as a props  upar function ko uncomment karna hai   */}
       {/* <PassFuncProps data={getData} /> */}
 
-      {/* <PassFunc2 /> */}   
+      {/* <PassFunc2 /> */}
 
       {/* constructor life cycle */}
       {/* <ConstructorFirstLifecycle /> */}
 
       {/* Render life cycle */}
 
-{/* _______________________________________________________________ */}
+      {/* _______________________________________________________________ */}
       {/* Render life cycle props pe update  */}
       {/* <RenderLifeCycle  name={name}/> */}
       {/* <button onClick={()=>setName('sidhu')}>Update Name</button> */}
 
 
-            {/* Render life cycle state pe update       / Render Life cycle  ko uncomment karna hai upar */}
-            {/* <RenderLifeCycle  /> */}
-{/* _______________________________________________________________________- */}
+      {/* Render life cycle state pe update       / Render Life cycle  ko uncomment karna hai upar */}
+      {/* <RenderLifeCycle  /> */}
+      {/* _______________________________________________________________________- */}
 
-        {/* Componenet did mount  */}
-          <ComponentDidMountLifeCycle/>
-    
+      {/* Componenet did mount  */}
+      {/* <ComponentDidMountLifeCycle/> */}
 
+      {/* component will unmount */}
+      {/* <ComponentWillUnmount /> */}
+      {/* and Studentcompomnrn weill update ko bhi cjhalana hai  */}
 
+      {/* Hooks */}
+      {/* <Hook/> */}
 
+      {/* UseEFfect hook */}
+      {/* <UseEffectHook /> */}
 
+      {/* useEffect on specific props and specific state  ke upar update kar sakte hai */}
+      {/* <UseEffectWithStateAndProps /> */}
+
+      {/* _______________________________________________________________________- */}
+      {/* use effect with props */}
+      {/* upar  function app ke niche use effect with props ko uncomment karo */}
+      {/* <UseEffectWithProps count={count} data={data} />
+      <button onClick={() => setCount(count + 1)}>Update Count</button>
+      <button onClick={() => setData(data + 1)}>Update data</button> */}
+      {/* _______________________________________________________________________- */}
+
+      {/* <StyleInReact/> */}
+
+    {/* // bootstrap in react */}
+     {/* <Bootstrap /> */}
+
+  {/* handle array with list */}
+  <HandleArrayWithList/>
 
 
     </div>
