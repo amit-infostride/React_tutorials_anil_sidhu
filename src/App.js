@@ -25,7 +25,17 @@ import './App.css';
 // --------------------------------------------------------
 // import StyleInReact from './components/StyleInReact';
 // import Bootstrap from './components/Bootstrap';
-import HandleArrayWithList from './components/HandleArrayWithList';
+// import HandleArrayWithList from './components/HandleArrayWithList';
+// import NestedListWithNestedArray from './components/NestedListWithNestedArray';
+// import ListWithBootstrapWithUniqueKey from './components/ListWithBootstrapWithUniqueKey';
+// import ReuseComponent from './components/ReuseComponent';
+// import ChildToParentDataTransfer from './components/ChildToParentDataTransfer';
+// import PureComponent2 from './components/PureComponentClassBased';
+// import UseMemo from './components/UseMemo';
+// import RefClassBased from './components/RefClassBased';
+// import UseRefHook from './components/UseRefHook';
+import ForwardRef from './components/ForwardRef';
+
 
 
 
@@ -134,11 +144,45 @@ function App() {
 
       {/* <StyleInReact/> */}
 
-    {/* // bootstrap in react */}
-     {/* <Bootstrap /> */}
+      {/* // bootstrap in react */}
+      {/* <Bootstrap /> */}
 
-  {/* handle array with list */}
-  <HandleArrayWithList/>
+      {/* handle array with list */}
+      {/* <HandleArrayWithList/> */}
+
+      {/* Nested list with nested Array */}
+      {/* <NestedListWithNestedArray/> */}
+
+      {/* ListWithBootstrapWithUniqueKey */}
+      {/* <ListWithBootstrapWithUniqueKey /> */}
+
+      {/* ------------------------------------------------------------------------ */}
+      {/* Reuse componenet */}
+      {/* <ReuseComponent /> */}
+      {/* made  users2.js file  */}
+
+      {/* ------------------------------------------------------------------------ */}
+      {/* ChildToParentDataTransfer */}
+      {/* <ChildToParentDataTransfer /> */}
+        {/* ChildToParentDataTransfer2  and ChildToParentDataTransfer 2 files are there  */}
+{/* _________________________________________________________________________________ */}
+
+     {/* Pure componenet */}
+      {/* <PureComponent2 /> */}
+
+
+      {/* UseMemo */}
+      {/* <UseMemo /> */}
+
+      {/* Ref class based */}
+      {/* <RefClassBased /> */}
+
+      {/* useRef hook  */}
+      {/* <UseRefHook /> */}
+
+      {/* forward ref */}
+      <ForwardRef />
+
 
 
     </div>
