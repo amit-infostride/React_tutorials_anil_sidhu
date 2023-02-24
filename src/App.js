@@ -34,7 +34,11 @@ import './App.css';
 // import UseMemo from './components/UseMemo';
 // import RefClassBased from './components/RefClassBased';
 // import UseRefHook from './components/UseRefHook';
-import ForwardRef from './components/ForwardRef';
+// import ForwardRef1 from './components/ForwardRef1';
+// import ControlledComponent from './components/ControlledComponent';
+// import UncontrolledComponent from './components/UncontrolledComponent';
+// import HigherOrderComponent from './components/HigherOrderComponent';
+import ReactRouter from './components/ReactRouter';
 
 
 
@@ -164,10 +168,10 @@ function App() {
       {/* ------------------------------------------------------------------------ */}
       {/* ChildToParentDataTransfer */}
       {/* <ChildToParentDataTransfer /> */}
-        {/* ChildToParentDataTransfer2  and ChildToParentDataTransfer 2 files are there  */}
-{/* _________________________________________________________________________________ */}
+      {/* ChildToParentDataTransfer2  and ChildToParentDataTransfer 2 files are there  */}
+      {/* _________________________________________________________________________________ */}
 
-     {/* Pure componenet */}
+      {/* Pure componenet */}
       {/* <PureComponent2 /> */}
 
 
@@ -181,7 +185,19 @@ function App() {
       {/* <UseRefHook /> */}
 
       {/* forward ref */}
-      <ForwardRef />
+      {/* <ForwardRef1 /> */}
+
+      {/* Controlled component */}
+      {/* <ControlledComponent /> */}
+
+      {/* Uncontrolled Componenet */}
+      {/* <UncontrolledComponent /> */}
+
+     {/* HigherOrderComponent */}
+     {/* <HigherOrderComponent /> */}
+
+     {/* React Router */}
+     <ReactRouter />
 
 
 
